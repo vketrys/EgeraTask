@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.country {
+  display: flex;
+  flex-direction: column;
+} 
+
+input {
+  width: 96%;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+select {
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.date-cvc {
+  display: flex;
+  flex-direction: row;
+}
+
+.label {
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: blue;
+  border-radius: 5px;
+}
